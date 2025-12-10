@@ -1,0 +1,335 @@
+{
+  "restaurant": {
+    "name": "Versailles Café",
+    "currency": "TND",
+    "categories": [
+      {
+        "id": "baguette_farcie",
+        "name": "BAGUETTE FARCIE",
+        "items": [
+          { "code": 139, "name": "THON", "price": 13000, "image": "https://images.unsplash.com/photo-1619096252214-ef06c45683e3?w=800&q=80&fit=crop&auto=format" },
+          { "code": 140, "name": "POULET", "price": 12000, "image": "https://images.unsplash.com/photo-1619740455993-8ae611c11fc8?w=800&q=80&fit=crop&auto=format" },
+          { "code": 141, "name": "CHAWARMA", "price": 11000, "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "tacos",
+        "name": "TACOS",
+        "items": [
+          { "code": 136, "name": "THON", "price": 13000, "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80&fit=crop&auto=format" },
+          { "code": 137, "name": "POULET CHAMPIGNON", "price": 15000, "image": "https://images.unsplash.com/photo-1599974982948-571b1c6d6880?w=800&q=80&fit=crop&auto=format" },
+          { "code": 138, "name": "CHAWARMA", "price": 12500, "image": "https://images.unsplash.com/photo-1613514785940-daed07799d9b?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "panini",
+        "name": "PANINI",
+        "items": [
+          { "code": 142, "name": "THON", "price": 8500, "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80&fit=crop&auto=format" },
+          { "code": 143, "name": "JAMBON", "price": 8000, "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80&fit=crop&auto=format" },
+          { "code": 144, "name": "PEPPERONI", "price": 10000, "image": "https://images.unsplash.com/photo-1568343547654-48b5e3537965?w=800&q=80&fit=crop&auto=format" },
+          { "code": 145, "name": "CHEESE", "price": 12000, "image": "https://images.unsplash.com/photo-1619096252214-ef06c45683e3?w=800&q=80&fit=crop&auto=format" },
+          { "code": 146, "name": "VERSAILLES", "price": 13000, "image": "https://images.unsplash.com/photo-1550507992-eb63ffee0847?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "maqloub",
+        "name": "MA9LOUB",
+        "items": [
+          { "code": 125, "name": "THON", "price": 9000, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80&fit=crop&auto=format" },
+          { "code": 126, "name": "ESCALOPE", "price": 10000, "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80&fit=crop&auto=format" },
+          { "code": 127, "name": "CHAWARMA", "price": 12000, "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80&fit=crop&auto=format" },
+          { "code": 128, "name": "VERSAILLES", "price": 15000, "image": "https://images.unsplash.com/photo-1623847762140-c6d81e1dd120?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "omelettes",
+        "name": "OMELETTES",
+        "items": [
+          { "code": 121, "name": "NATURE", "price": 7000, "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=800&q=80&fit=crop&auto=format" },
+          { "code": 122, "name": "JAMBON/SALAMI", "price": 8000, "image": "https://images.unsplash.com/photo-1612240498936-65cfd5d97d0f?w=800&q=80&fit=crop&auto=format" },
+          { "code": 123, "name": "THON", "price": 9000, "image": "https://images.unsplash.com/photo-1611175048677-8c6f7253f2c2?w=800&q=80&fit=crop&auto=format" },
+          { "code": 124, "name": "VERSAILLES", "price": 10000, "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "pizzas",
+        "name": "PIZZAS",
+        "items": [
+          { "code": 129, "name": "MARGUERITA", "price": 12000, "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80&fit=crop&auto=format" },
+          { "code": 130, "name": "4 FROMAGES", "price": 18000, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80&fit=crop&auto=format" },
+          { "code": 131, "name": "4 SAISONS", "price": 19000, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80&fit=crop&auto=format" },
+          { "code": 132, "name": "THON", "price": 16000, "image": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=800&q=80&fit=crop&auto=format" },
+          { "code": 133, "name": "FRUITS DE MER", "price": 24000, "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=800&q=80&fit=crop&auto=format" },
+          { "code": 134, "name": "MEXICAINE", "price": 20000, "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "chicha",
+        "name": "CHICHA",
+        "items": [
+          { "name": "FAKER (MENTE/POMME/RAISIN/CHEWINGUM)", "price": 10000, "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80&fit=crop&auto=format" },
+          { "name": "LOVE", "price": 12000, "image": "https://images.unsplash.com/photo-1509785307050-d4066910ec1e?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "chocolat_chaud",
+        "name": "CHOCOLAT CHAUD",
+        "items": [
+          { "code": 89, "name": "SIMPLE", "price": 7000, "image": "https://images.unsplash.com/photo-1517578239113-b03992dcdd25?w=800&q=80&fit=crop&auto=format" },
+          { "code": 90, "name": "JAZZ (chocolat + amande)", "price": 9000, "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=800&q=80&fit=crop&auto=format" },
+          { "code": 91, "name": "HAVANA (chocolat + nutella + amande)", "price": 12000, "image": "https://images.unsplash.com/photo-1578775887804-699de7086ff9?w=800&q=80&fit=crop&auto=format" },
+          { "code": 92, "name": "VERSAILLES (chocolat + fruits secs + banane + nutella)", "price": 14000, "image": "https://images.unsplash.com/photo-1591102046866-cbe481ae8c75?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "chocolat_glace",
+        "name": "CHOCOLAT GLACÃ‰",
+        "items": [
+          { "code": 93, "name": "SIMPLE", "price": 8000, "image": "https://images.unsplash.com/photo-1578775887804-699de7086ff9?w=800&q=80&fit=crop&auto=format" },
+          { "code": 94, "name": "JAZZ (chocolat + chantilly + amande)", "price": 10000, "image": "https://images.unsplash.com/photo-1576375927813-24a6c2c8d01d?w=800&q=80&fit=crop&auto=format" },
+          { "code": 95, "name": "HAVANA (chocolat + nutella + amande + chantilly)", "price": 13000, "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800&q=80&fit=crop&auto=format" },
+          { "code": 96, "name": "VERSAILLES (chocolat + fruits secs + banane + nutella + chantilly)", "price": 15000, "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "frappuccino",
+        "name": "FRAPPUCCINO",
+        "items": [
+          { "code": 97, "name": "KIWI", "price": 11000, "image": "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=800&q=80&fit=crop&auto=format" },
+          { "code": 98, "name": "NOISETTE", "price": 12000, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80&fit=crop&auto=format" },
+          { "code": 99, "name": "BANANE", "price": 12000, "image": "https://images.unsplash.com/photo-1638176066666-ffb2f013c7dd?w=800&q=80&fit=crop&auto=format" },
+          { "code": 100, "name": "VANILLE", "price": 13000, "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&q=80&fit=crop&auto=format" },
+          { "code": 101, "name": "FRAISE", "price": 10000, "image": "https://images.unsplash.com/photo-1546561892-65bf6f3f0b60?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "glaces",
+        "name": "GLACES",
+        "items": [
+          { "code": 74, "name": "COUPE ENFANTS (3 boules)", "price": 7500, "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80&fit=crop&auto=format" },
+          { "code": 75, "name": "SORBET CITRON (3 boules)", "price": 7500, "image": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=800&q=80&fit=crop&auto=format" },
+          { "code": 76, "name": "JARDIN (4 boules)", "price": 12000, "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=800&q=80&fit=crop&auto=format" },
+          { "code": 77, "name": "CHOCOLAT LIEGEOIS", "price": 14000, "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800&q=80&fit=crop&auto=format" },
+          { "code": 78, "name": "CHOCOLAT VIENNOIS", "price": 14000, "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=800&q=80&fit=crop&auto=format" },
+          { "code": 79, "name": "BANANA SPLIT", "price": 17000, "image": "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=800&q=80&fit=crop&auto=format" },
+          { "code": 80, "name": "VERSAILLES (6 boules au choix + fruits secs + chantilly)", "price": 20000, "image": "https://images.unsplash.com/photo-1568901839119-631418a3910b?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "cocktails",
+        "name": "COCKTAILS",
+        "items": [
+          { "code": 81, "name": "PONT D'AMOUR (fraise + banane + chantilly)", "price": 10000, "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80&fit=crop&auto=format" },
+          { "code": 82, "name": "SYRINA (kiwi + fraise + banane + chantilly)", "price": 13000, "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80&fit=crop&auto=format" },
+          { "code": 83, "name": "MEXICANO (banane + kiwi + glace pistache + chantilly)", "price": 15000, "image": "https://images.unsplash.com/photo-1546171753-97d7676e4602?w=800&q=80&fit=crop&auto=format" },
+          { "code": 84, "name": "VERSAILLES (curacao + citron + kiwi + fraise + banane + chantilly)", "price": 16000, "image": "https://images.unsplash.com/photo-1609951651556-5334e2706168?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "smoothies",
+        "name": "SMOOTHIES",
+        "items": [
+          { "code": 85, "name": "RED (fruits secs + yaourt + M&M's + glace frais)", "price": 12000, "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=800&q=80&fit=crop&auto=format" },
+          { "code": 86, "name": "YELLOW (fruits secs + yaourt + M&M's + glace vanille + chantilly + arome framboise)", "price": 12000, "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=800&q=80&fit=crop&auto=format" },
+          { "code": 87, "name": "GREEN (fruits secs + yaourt + M&M's + glace fraise + chantilly + arome pinacolada)", "price": 14000, "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=800&q=80&fit=crop&auto=format" },
+          { "code": 88, "name": "JAWAJEM", "price": 15000, "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "gaufre_sucres",
+        "name": "GAUFRE SUCRES",
+        "items": [
+          { "code": 101, "name": "GAUFRE MIELE", "prices": { "Said": 7000, "Nutella": 10000 }, "image": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=800&q=80&fit=crop&auto=format" },
+          { "code": 102, "name": "GAUFRE CHOCOLAT", "prices": { "Said": 10000, "Nutella": 12000 }, "image": "https://images.unsplash.com/photo-1582716401301-b2407dc7563d?w=800&q=80&fit=crop&auto=format" },
+          { "code": 103, "name": "GAUFRE CHOCO BANANE", "prices": { "Said": 12000, "Nutella": 14000 }, "image": "https://images.unsplash.com/photo-1568357511005-61a375fd7e4c?w=800&q=80&fit=crop&auto=format" },
+          { "code": 104, "name": "GAUFRE CHOCO AMANDE", "prices": { "Said": 12000, "Nutella": 14000 }, "image": "https://images.unsplash.com/photo-1612240498936-65cfd5d97d0f?w=800&q=80&fit=crop&auto=format" },
+          { "code": 105, "name": "GAUFRE CHOCO BANANE AMANDE", "prices": { "Said": 14000, "Nutella": 15000 }, "image": "https://images.unsplash.com/photo-1568645634923-e988e26a9b02?w=800&q=80&fit=crop&auto=format" },
+          { "code": 106, "name": "GAUFRE VERSAILLES (chocolat+fruits secs+banane+glace)", "prices": { "Said": 16000, "Nutella": 17000 }, "image": "https://images.unsplash.com/photo-1585638434209-fa5c9c383e52?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "pancakes",
+        "name": "PANCAKES",
+        "items": [
+          { "code": 107, "name": "MIEL", "prices": { "Said": 8000, "Nutella": 10000 }, "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80&fit=crop&auto=format" },
+          { "code": 108, "name": "CHOCOLAT", "prices": { "Said": 10000, "Nutella": 12000 }, "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80&fit=crop&auto=format" },
+          { "code": 109, "name": "VERSAILLES (chocolat+banane+fruits secs+miel)", "prices": { "Said": 13000, "Nutella": 16000 }, "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "crepes_sucres",
+        "name": "CREPES SUCRES",
+        "items": [
+          { "code": 110, "name": "CRÃŠPE SUCRE", "prices": { "Said": 7000, "Nutella": 9000 }, "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80&fit=crop&auto=format" },
+          { "code": 111, "name": "CRÃŠPE MIEL", "prices": { "Said": 7000, "Nutella": 9000 }, "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80&fit=crop&auto=format" },
+          { "code": 112, "name": "CRÃŠPE CHOCOLAT", "prices": { "Said": 8000, "Nutella": 10000 }, "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80&fit=crop&auto=format" },
+          { "code": 113, "name": "CRÃŠPE CHOCO BANANE", "prices": { "Said": 12000, "Nutella": 14000 }, "image": "https://images.unsplash.com/photo-1591980602411-2808c1a2c69f?w=800&q=80&fit=crop&auto=format" },
+          { "code": 114, "name": "CRÃŠPE CHOCO AMANDE", "prices": { "Said": 12000, "Nutella": 14000 }, "image": "https://images.unsplash.com/photo-1525664387577-542272ad42c4?w=800&q=80&fit=crop&auto=format" },
+          { "code": 115, "name": "CRÃŠPE CHOCO BANANE AMANDE", "prices": { "Said": 14000, "Nutella": 16000 }, "image": "https://images.unsplash.com/photo-1593193814698-f7fc64f8742d?w=800&q=80&fit=crop&auto=format" },
+          { "code": 116, "name": "CRÃŠPE OREO", "prices": { "Said": 11000, "Nutella": 13000 }, "image": "https://images.unsplash.com/photo-1615870123253-cea28e8b8e8f?w=800&q=80&fit=crop&auto=format" },
+          { "code": 117, "name": "CRÃŠPE VERSAILLES", "prices": { "Said": 15000, "Nutella": 17000 }, "image": "https://images.unsplash.com/photo-1508737804141-4c3b688e2546?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "crepes_sales",
+        "name": "CREPES SALÉS",
+        "items": [
+          { "code": 118, "name": "CRÊPE JAMBON", "price": 8000, "image": "https://images.unsplash.com/photo-1628191010210-a59de3bd4e88?w=800&q=80&fit=crop&auto=format" },
+          { "code": 119, "name": "CRÊPE THON", "price": 9000, "image": "https://images.unsplash.com/photo-1517244683847-7456b63c5969?w=800&q=80&fit=crop&auto=format" },
+          { "code": 120, "name": "CRÊPE VERSAILLES (oeuf + jambon + fromage + thon + salami)", "price": 13000, "image": "https://images.unsplash.com/photo-1476124369491-f7addf5dd4a9?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "yaourt_glace",
+        "name": "YAOURT GLACÃ‰",
+        "items": [
+          { "code": 44, "name": "NATURE", "price": 8000, "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80&fit=crop&auto=format" },
+          { "code": 45, "name": "VANILLE", "price": 9000, "image": "https://images.unsplash.com/photo-1563228411-c85e4e3de72b?w=800&q=80&fit=crop&auto=format" },
+          { "code": 46, "name": "CHOCOLAT", "price": 10000, "image": "https://images.unsplash.com/photo-1516905041604-7935af78f572?w=800&q=80&fit=crop&auto=format" },
+          { "code": 47, "name": "FRAISE", "price": 12000, "image": "https://images.unsplash.com/photo-1595475207225-428b62bda831?w=800&q=80&fit=crop&auto=format" },
+          { "code": 48, "name": "KIWI", "price": 13000, "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=800&q=80&fit=crop&auto=format" },
+          { "code": 49, "name": "BANANE", "price": 14000, "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=800&q=80&fit=crop&auto=format" },
+          { "code": 50, "name": "FRAMBOISE", "price": 15000, "image": "https://images.unsplash.com/photo-1596544994470-8ba86c3ab727?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "jus_glaces",
+        "name": "JUS GLACES",
+        "items": [
+          { "code": 58, "name": "GREEN (glace pistache + menthe)", "price": 9000, "image": "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=800&q=80&fit=crop&auto=format" },
+          { "code": 59, "name": "VANILLE (glace vanille+miel)", "price": 10000, "image": "https://images.unsplash.com/photo-1579287178138-4e134ecb1d40?w=800&q=80&fit=crop&auto=format" },
+          { "code": 60, "name": "PINCOL (glace frais+pinacolada)", "price": 11000, "image": "https://images.unsplash.com/photo-1591649134788-f60e5dbf66e1?w=800&q=80&fit=crop&auto=format" },
+          { "code": 61, "name": "RED (glace framboise+yaourt)", "price": 12000, "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "mjitos",
+        "name": "MJITOS",
+        "items": [
+          { "code": 51, "name": "BOGA MOJITO", "price": 8000, "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&q=80&fit=crop&auto=format" },
+          { "code": 52, "name": "SHWEPPES TONIC", "price": 8000, "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=800&q=80&fit=crop&auto=format" },
+          { "code": 53, "name": "RED", "price": 9000, "image": "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=800&q=80&fit=crop&auto=format" },
+          { "code": 54, "name": "GREEN", "price": 9000, "image": "https://images.unsplash.com/photo-1546171753-97d7676e4602?w=800&q=80&fit=crop&auto=format" },
+          { "code": 55, "name": "BLUE", "price": 9000, "image": "https://images.unsplash.com/photo-1609951651556-5334e2706168?w=800&q=80&fit=crop&auto=format" },
+          { "code": 56, "name": "SHARK", "price": 12000, "image": "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=800&q=80&fit=crop&auto=format" },
+          { "code": 57, "name": "RED BULL", "price": 12000, "image": "https://images.unsplash.com/photo-1622543925917-763c34f6a1f0?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "jus_frais",
+        "name": "JUS FRAIS",
+        "items": [
+          { "code": 62, "name": "CITRON", "price": 5000, "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=800&q=80&fit=crop&auto=format" },
+          { "code": 63, "name": "CITRON AUX AMANDES", "price": 7000, "image": "https://images.unsplash.com/photo-1582506124076-3dd0a67df81a?w=800&q=80&fit=crop&auto=format" },
+          { "code": 64, "name": "CITRON+GLACE", "price": 7500, "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=800&q=80&fit=crop&auto=format" },
+          { "code": 65, "name": "ORANGE (saison)", "price": 6000, "image": "https://images.unsplash.com/photo-1600271772470-bd22a42787b3?w=800&q=80&fit=crop&auto=format" },
+          { "code": 66, "name": "FRAISE", "price": 8000, "image": "https://images.unsplash.com/photo-1559563458-527698bf5295?w=800&q=80&fit=crop&auto=format" },
+          { "code": 67, "name": "FRAISE+GLACE", "price": 10000, "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=800&q=80&fit=crop&auto=format" },
+          { "code": 68, "name": "POMME", "price": 8000, "image": "https://images.unsplash.com/photo-1595475207225-428b62bda831?w=800&q=80&fit=crop&auto=format" },
+          { "code": 69, "name": "PECHE", "price": 8000, "image": "https://images.unsplash.com/photo-1629828874514-d05e00cbb6d4?w=800&q=80&fit=crop&auto=format" },
+          { "code": 70, "name": "BANANE", "price": 10000, "image": "https://images.unsplash.com/photo-1481671703460-040cb8a2d909?w=800&q=80&fit=crop&auto=format" },
+          { "code": 71, "name": "BANANE+GLACE", "price": 13000, "image": "https://images.unsplash.com/photo-1638176066666-ffb2f013c7dd?w=800&q=80&fit=crop&auto=format" },
+          { "code": 72, "name": "KIWI", "price": 10000, "image": "https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=800&q=80&fit=crop&auto=format" },
+          { "code": 73, "name": "COCKTAIL DE FRUITS", "price": 13000, "image": "https://images.unsplash.com/photo-1560512823-829485b8bf24?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "cafes",
+        "name": "CAFES",
+        "items": [
+          { "code": 9, "name": "EXPRESS", "price": 3500, "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=800&q=80&fit=crop&auto=format" },
+          { "code": 10, "name": "CAPUCIN", "price": 3500, "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&q=80&fit=crop&auto=format" },
+          { "code": 11, "name": "AMÃ‰RICAIN", "price": 3500, "image": "https://images.unsplash.com/photo-1497636577773-f1231844b336?w=800&q=80&fit=crop&auto=format" },
+          { "code": 12, "name": "CRÃˆME", "price": 4000, "image": "https://images.unsplash.com/photo-1578374173703-16119549f1f7?w=800&q=80&fit=crop&auto=format" },
+          { "code": 13, "name": "CAPUCCINO", "price": 7000, "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=800&q=80&fit=crop&auto=format" },
+          { "code": 14, "name": "TURK", "price": 4000, "image": "https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=800&q=80&fit=crop&auto=format" },
+          { "code": 15, "name": "CAPUCIN+CHANTILLY", "price": 5000, "image": "https://images.unsplash.com/photo-1577968897966-3d48d8cb92c5?w=800&q=80&fit=crop&auto=format" },
+          { "code": 16, "name": "CRÃˆME+CHANTILLY", "price": 5000, "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=800&q=80&fit=crop&auto=format" },
+          { "code": 17, "name": "CAFÃ‰ AU LAIT", "price": 4000, "image": "https://images.unsplash.com/photo-1591528731808-c22da7d5b01c?w=800&q=80&fit=crop&auto=format" },
+          { "code": 18, "name": "NESCAFÃ‰", "price": 4000, "image": "https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800&q=80&fit=crop&auto=format" },
+          { "code": 19, "name": "TASSE LAIT", "price": 3000, "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "ace_coffe",
+        "name": "ACE COFFE",
+        "items": [
+          { "name": "ACE VANILLE", "price": 7500, "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80&fit=crop&auto=format" },
+          { "name": "ACE CARAMEL", "price": 7500, "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&fit=crop&auto=format" },
+          { "name": "ACE NOISETTE", "price": 7500, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80&fit=crop&auto=format" },
+          { "name": "ACE CHOCOLAT NOIR", "price": 7500, "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "boissons",
+        "name": "BOISSONS",
+        "items": [
+          { "code": 24, "name": "EAU MINÃ‰RALE 1/2L", "price": 3000, "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80&fit=crop&auto=format" },
+          { "code": 25, "name": "EAU MINÃ‰RALE 1L", "price": 4000, "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80&fit=crop&auto=format" },
+          { "code": 26, "name": "GARCI", "price": 3500, "image": "https://images.unsplash.com/photo-1629828874514-d05e00cbb6d4?w=800&q=80&fit=crop&auto=format" },
+          { "code": 27, "name": "SODA + GLAÃ‡ON", "price": 6000, "image": "https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=800&q=80&fit=crop&auto=format" },
+          { "code": 28, "name": "CELESTIA", "price": 8000, "image": "https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?w=800&q=80&fit=crop&auto=format" },
+          { "code": 29, "name": "SCHWEPPES TONIC", "price": 3500, "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=800&q=80&fit=crop&auto=format" },
+          { "code": 30, "name": "BOISSONS (Boga lim - Boga Cider - Coca Cola - Fanta - Apla - Sprite - Orangina)", "price": 3500, "image": "https://images.unsplash.com/photo-1629828874514-d05e00cbb6d4?w=800&q=80&fit=crop&auto=format" },
+          { "code": 31, "name": "SHARK", "price": 9000, "image": "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "thes",
+        "name": "THES",
+        "items": [
+          { "code": 20, "name": "THÉ INFUSION", "price": 3500, "image": "https://images.unsplash.com/photo-1597318167374-6f0eda6b49d9?w=800&q=80&fit=crop&auto=format" },
+          { "code": 21, "name": "THÉ AUX AMANDES", "price": 6000, "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80&fit=crop&auto=format" },
+          { "code": 22, "name": "THÉ AUX PIGNONS", "price": 8000, "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80&fit=crop&auto=format" },
+          { "code": 23, "name": "VERVEINE", "price": 3500, "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "milkshakes",
+        "name": "MILKSHAKES",
+        "items": [
+          { "code": 40, "name": "STANDARD (GoÃ»t au choix: Vanille, Fraise, Chocolat)", "price": 8000, "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=800&q=80&fit=crop&auto=format" },
+          { "code": 41, "name": "COCKTAIL", "price": 9000, "image": "https://images.unsplash.com/photo-1572440703848-c8adcec5c1e8?w=800&q=80&fit=crop&auto=format" },
+          { "code": 42, "name": "OREO (GoÃ»t au choix: Vanille, Fraise, Chocolat)", "price": 10000, "image": "https://images.unsplash.com/photo-1615870123253-cea28e8b8e8f?w=800&q=80&fit=crop&auto=format" },
+          { "code": 43, "name": "NUTELLA BANANE (GoÃ»t au choix: vanille, fraise, chocolat)", "price": 13000, "image": "https://images.unsplash.com/photo-1638176066666-ffb2f013c7dd?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "cafe_glaces",
+        "name": "CAFE GLACES",
+        "items": [
+          { "code": 32, "name": "CAPURAMEL (glace caramel + express + chantilly)", "price": 8000, "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=80&fit=crop&auto=format" },
+          { "code": 33, "name": "CAPUNETTE (glace noisette + express + chantilly)", "price": 8000, "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&fit=crop&auto=format" },
+          { "code": 34, "name": "CAFE VIENNOIS (glace vanille + express + chantilly)", "price": 8000, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80&fit=crop&auto=format" },
+          { "code": 35, "name": "CAFE LIEGEOIS (glace vanille + express + chantilly)", "price": 8000, "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "cafe_aromatises",
+        "name": "CAFE AROMATISES",
+        "items": [
+          { "code": 36, "name": "IRISH (Express arome au choix: Caramel/Vanille/Noisette)", "price": 6000, "image": "https://images.unsplash.com/photo-1527385352018-3c26dd6c3916?w=800&q=80&fit=crop&auto=format" },
+          { "code": 37, "name": "CARAMEL (Capucin arome au choix: Caramel/Vanille/Noisette)", "price": 6000, "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=80&fit=crop&auto=format" },
+          { "code": 38, "name": "VANILLE (CafÃ© crÃ¨me arome au choix: Caramel/Vanille/Noisette)", "price": 6500, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80&fit=crop&auto=format" },
+          { "code": 39, "name": "NOISETTE (Capuccino arome au choix: Caramel/Vanille/Noisette)", "price": 7500, "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&fit=crop&auto=format" }
+        ]
+      },
+      {
+        "id": "petit_dejeuner",
+        "name": "PETIT DEJEUNER",
+        "items": [
+          { "code": 1, "name": "RAPIDOSS (CafÃ© au choix + viennoiserie + jus + eau 0.5L)", "price": 10000, "image": "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=800&q=80&fit=crop&auto=format" },
+          { "code": 2, "name": "DELLIGHT (CafÃ© au choix + confiture + beurre + chamia + mini crÃªpe chocolat + jus + viennoiserie + eau 0.5L)", "price": 13000, "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80&fit=crop&auto=format" },
+          { "code": 3, "name": "DELIGHT SALÃ‰E (CafÃ© au choix + omelette + viennoiserie + harissa + jambon + olive + jus + yaourt + eau 0.5L)", "price": 15000, "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80&fit=crop&auto=format" },
+          { "code": 4, "name": "CHEZ NOUS (CafÃ© au choix + omelette + viennoiserie + olive + jambon + harissa + CrÃªpe chocolat + beurre + jus + yaourt + confiture + chamia)", "price": 17000, "image": "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=800&q=80&fit=crop&auto=format" },
+          { "code": 5, "name": "VERSAILLES (2 CafÃ© au choix + 2 viennoiseries + jambon + harissa + confiture + 2 pancakes nutella + 2 jus + beurre + chamia + 2 yaourt + eau 1L)", "price": 30000, "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80&fit=crop&auto=format" },
+          { "code": 7, "name": "CROISSANT", "price": 5000, "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80&fit=crop&auto=format" },
+          { "code": 6, "name": "GATEAUX", "price": 6000, "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80&fit=crop&auto=format" },
+          { "code": 8, "name": "CAKE", "price": 3000, "image": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=800&q=80&fit=crop&auto=format" }
+        ]
+      }
+    ]
+  }
+}
+
