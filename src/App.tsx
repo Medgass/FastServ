@@ -5,6 +5,7 @@ import { Cart } from './components/Cart';
 import { Complaints } from './components/Complaints';
 import { BillRequest } from './components/BillRequest';
 import AdminPanel from './components/AdminPanel';
+import LandingPage from './components/LandingPage';
 import { Language } from './translations';
 
 export type MenuItem = {
@@ -24,7 +25,7 @@ export type CartItem = {
   notes?: string;
 };
 
-export type Page = 'scan' | 'menu' | 'cart' | 'complaints' | 'bill' | 'admin';
+export type Page = 'landing' | 'scan' | 'menu' | 'cart' | 'complaints' | 'bill' | 'admin';
 
 export type User = {
   name: string;
@@ -33,7 +34,7 @@ export type User = {
 };
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<Page>('scan');
+  const [currentPage, setCurrentPage] = useState<Page>('landing');
   const [tableNumber, setTableNumber] = useState<string>('');
   const [cart, setCart] = useState<CartItem[]>([]);
   const [user, setUser] = useState<User | null>(null);
@@ -104,7 +105,9 @@ export default function App() {
   };
 
   return (
-    <div style={{ minHeight: '100vh', backgroundColor: '#f3f4f6' }}>
+    <div style={{ minHeight: '100vh' }} className="bg-gradient-to-br from-teal-50 via-cyan-50 to-blue-50">
+      {currentPage === 'landing' && <LandingPage onEnter={() => setCurrentPage('scan')} />}
+      
       {currentPage === 'scan' && <QRScanPage onScanComplete={handleQRScanned} />}
       
       {currentPage === 'admin' && <AdminPanel />}
@@ -156,7 +159,7 @@ export default function App() {
       {currentPage !== 'admin' && (
         <button
           onClick={() => setCurrentPage('admin')}
-          className="fixed bottom-4 right-4 w-12 h-12 bg-gray-800 text-white rounded-full opacity-10 hover:opacity-100 transition-opacity shadow-lg z-50"
+          className="fixed bottom-4 right-4 w-12 h-12 bg-teal-800 text-amber-400 rounded-full opacity-10 hover:opacity-100 transition-opacity shadow-lg z-50"
           title="Mode Admin"
         >
           <svg className="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">

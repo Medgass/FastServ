@@ -3,6 +3,41 @@
 @tailwind utilities;
 
 :root {
+  /* Thème My Cocoon */
+  --color-primary: #0d9488; /* Teal-600 */
+  --color-primary-dark: #134e4a; /* Teal-900 */
+  --color-accent: #f59e0b; /* Amber-500 */
+  --color-light: #f0fdfa; /* Teal-50 */
+  --color-text: #1f2937; /* Gray-800 */
+}
+
+* {
+  @apply text-gray-800;
+}
+
+body {
+  @apply bg-gradient-to-br from-teal-50 via-cyan-50 to-blue-50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-teal-50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-teal-500 to-amber-500 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gradient-to-b from-teal-600 to-amber-600;
+}
+
+:root {
   --font-size: 16px;
   --background: #ffffff;
   --foreground: #1a365d;
